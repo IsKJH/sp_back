@@ -54,6 +54,13 @@ logs/
 *.sqlite
 *.h2.db
 
+### Environment Variables ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 ### Application Properties ###
 application-local.properties
 application-dev.properties
