@@ -18,6 +18,22 @@ kakao:
   token-request-uri: ${KAKAO_TOKEN_REQUEST_URI}
   user-info-request-uri: ${KAKAO_USER_INFO_REQUEST_URI}
 
+google:
+  login-url: ${GOOGLE_LOGIN_URL}
+  client-id: ${GOOGLE_CLIENT_ID}
+  client-secret: ${GOOGLE_CLIENT_SECRET}
+  redirect-uri: ${GOOGLE_REDIRECT_URI}
+  token-request-uri: ${GOOGLE_TOKEN_REQUEST_URI}
+  user-info-request-uri: ${GOOGLE_USER_INFO_REQUEST_URI}
+
+naver:
+  login-url: ${NAVER_LOGIN_URL}
+  client-id: ${NAVER_CLIENT_ID}
+  client-secret: ${NAVER_CLIENT_SECRET}
+  redirect-uri: ${NAVER_REDIRECT_URI}
+  token-request-uri: ${NAVER_TOKEN_REQUEST_URI}
+  user-info-request-uri: ${NAVER_USER_INFO_REQUEST_URI}
+
 jwt:
   secret: ${JWT_SECRET:mySecretKey123456789012345678901234567890}
   expiration: ${JWT_EXPIRATION:86400000}
